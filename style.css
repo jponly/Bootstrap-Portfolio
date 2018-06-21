@@ -4,12 +4,20 @@
 }
 
 
+
 .container {
     background: white;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(235, 233, 233);
+    height: 400px;
+    width: 960px;
+    
    
+}
+
+
+
 }
 
 .navbar-links {
@@ -35,7 +43,7 @@ body {
 #photo {
     width: 200px;
     height: 200px;
-    margin-left: 160px;
+    margin-left: 20px;
 }
 
 .footer {
@@ -47,9 +55,367 @@ body {
     background-color: #4aaaa5;
     color: white;
     text-align: center;
+    padding-top: 1%;
  }
 
  p {
      color: black;
+     margin-right: 10%;
+     
      
  }
+
+ .port_title {
+    margin-left: 2%;
+    margin-top: 1%;
+ }
+ .card-img-top {
+    width: 50%;
+    
+}
+.abt_container {
+    
+}
+
+.navbar-brand {
+   
+    width: 12%;
+    margin-left: 16%;
+    font-size: 110%;
+   
+
+}
+
+#navbarNav {
+   margin-left: 39%;
+   
+   
+}
+
+.img-thumbnail-port { 
+    max-width: 100%; 
+}
+
+
+@media only screen and (max-width: 980px) {
+
+   .container {
+    background: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(235, 233, 233);
+    height: 400px;
+    width: 960px;
+}
+    .navbar-brand {
+        margin-left: 13%;
+    }
+    .img-thumbnail-port {
+        max-width: 110%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        background: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(235, 233, 233);
+        height: 400px;
+        width: 600px;
+    }
+    .navbar-brand {
+        margin-left: 3%;
+    }
+    .img-thumbnail-port {
+        max-width: 110%;
+    }
+    .navbar-brand {
+        margin-left: 38%;
+    }
+    #photo {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    p {
+        color: black;
+        margin-right: 10%;
+        height: 30%;
+         width: 50%; 
+        font-size: 80%;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .container {
+        background: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(235, 233, 233);
+        height: 400px;
+        width: 700px;
+    }
+    .navbar-brand {
+        margin-left: 36%;
+    }
+    .img-thumbnail-port {
+        max-width: 120%;
+    }
+    #photo {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    p {
+        color: black;
+        margin-right: 10%;
+        height: 30%;
+         width: 50%; 
+        font-size: 80%;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 574px) {
+
+    .container {
+        background: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(235, 233, 233);
+        height: 340px;
+        width: 440px;
+    }
+    .port_title {
+        margin-left: 2%;
+        margin-top: 3%;
+        font-size: 1.10rem;
+    }
+    .img-thumbnail-port {
+        max-width: 120%;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 575px) {
+    .container {
+        background: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(235, 233, 233);
+        height: 430px;
+        width: 450px;
+    }
+    #photo {
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    p {
+        color: black;
+        margin-right: 10%;
+        height: 30%;
+         width: 50%; 
+        font-size: 80%;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-left: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 444px) {
+    .container {
+        background: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(235, 233, 233);
+        height: 390px;
+        width: 340px;
+    }
+    .navbar-brand {
+        margin-left: 30%;
+    }
+
+    .port_title {
+        margin-left: 2%;
+        margin-top: 4%;
+        font-size: 1.0rem;
+    }
+    .img-thumbnail-port {
+        max-width: 170%;
+    }
+    #photo {
+        width: 80px;
+        height: 80px;
+        margin-left: 20px;
+    }
+    p {
+        color: black;
+        margin-right: 10%;
+        height: 30%;
+        width: 50%;
+        font-size: 25%;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 20%;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        background: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(235, 233, 233);
+        height: 400px;
+        width: 75%;
+    }
+    .navbar-brand {
+        width: 12%;
+        margin-left: 16%;
+        padding-left: 14%;
+        font-size: 110%;
+    }
+
+    .img-thumbnail-port { 
+        padding: .25rem;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: .25rem;
+        max-width: 210%;
+        height: auto;
+        width: 230%; 
+    }
+    .port-title {
+        font-size: 1.10rem;
+    }
+    #photo {
+        width: 80px;
+        height: 80px;
+        margin-left: 20px;
+    }
+    p {
+        color: black;
+        margin-right: 10%;
+        height: 30%;
+         width: 50%; 
+        font-size: 60%;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        background: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(235, 233, 233);
+        height: 400px;
+        width: 75%;
+    }
+    .navbar-brand {
+        width: 12%;
+        margin-left: 16%;
+        padding-left: 10%;
+        font-size: 110%;
+    }
+
+    .img-thumbnail-port { 
+        padding: .25rem;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: .25rem;
+        max-width: 240%;
+        height: auto;
+        width: 230%; 
+    }
+    .port-title {
+        font-size: 1.10rem;
+    }
+    #photo {
+        width: 80px;
+        height: 80px;
+        margin-left: 20px;
+    }
+    p {
+        color: black;
+        margin-right: 10%;
+        height: 30%;
+         width: 50%; 
+        font-size: 40%;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+        background: white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(235, 233, 233);
+        height: 400px;
+        width: 90%;
+    }
+   .img-thumbnail-port { 
+       max-width: 230%; 
+   }
+    .port_title {
+    font-size: 1rem;
+    padding-top: 2%;
+    margin-top: 4%;
+   }
+    .navbar-brand {
+    padding-left: 5%;
+    margin-top: 3%;
+   }
+
+   #photo {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+p {
+    color: black;
+    margin-right: 10%;
+    height: 30%;
+     width: 50%; 
+    font-size: 30%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+}
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+ 
